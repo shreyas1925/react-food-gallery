@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.button_style {
+  text-transform: capitalize;
+}
+.image {
+  width: 350px;
+  height: 320px;
+}
+.main-heading {
+  color: #5d4037;
+}
+/* 
+.Item-inside {
+  display: flex;
+  box-shadow: 1px 2px 3px black;
+  /* height: 300px; */
+/* margin-bottom: 100px;
+  margin-left: 5px;
+  flex-direction: column;
+  width: 400px; */
+/* } */
+.Item-inside:hover img,
+.Item-inside:hover .btn {
+  transform: scale(1.1);
+}
+
+.img-div {
+  padding: 0;
+}
+
+img {
+  /* border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px; */
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-fluid {
+  height: 220px;
+}
+
+.main-title h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.price-book-divide h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4db6ac;
+}
+
+.price-book-divide {
+  margin-bottom: 10px;
+  /* width: 400px; */
+  margin: auto;
+  display: block;
+  justify-content: space-between;
+}
+
+.price-book-divide a {
+  text-decoration: none;
+}
+
+.main-title {
+  /* width: 400px; */
+  /* min-width: 200px; */
+  margin: auto;
+  display: block;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0px;
+}
+
+.btn-primary {
+  background-color: #4db6ac;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #00695c;
+  outline: none;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: black;
+  color: whitesmoke;
+  outline: none;
+}
+
+.item1 {
+  width: 700px;
+}
+
+.button {
+  margin-top: -58px;
+  margin-left: 125px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.para {
+  /* width: 400px; */
+  margin: auto;
+  display: block;
+}
+
+@media only screen and (min-width: 1330px) {
+  .main-title {
+    width: 360px;
+    min-width: 200px;
+    margin: auto;
+    display: block;
+  }
+  .price-book-divide {
+    margin-bottom: 10px;
+    width: 360px;
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+  }
+  .para {
+    width: 360px;
+    margin: auto;
+    display: block;
+  }
+}
